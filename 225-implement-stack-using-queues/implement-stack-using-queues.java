@@ -17,7 +17,7 @@ class MyStack {
     }
     
     public int pop() {
-        return q.remove();
+        return q.poll();
 
         
     }
